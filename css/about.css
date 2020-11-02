@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+header{
+	position: relative;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../123.jpg");
+	background-attachment: fixed;
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+	wdth: 90px;
+}
+ul li a{
+	font-family: century gothic;
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.8s ease;
+}
+ul li a:hover
+{
+	background-color: white;
+	color: black;
+}
+ul li ul li{
+	display:none;
+	padding:6px;
+
+}
+ul li:hover ul li{
+	display: block;
+}
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+
+.logo img{
+	position: relative;
+	left: 50px;
+    top: 20px;
+	float: left;
+	width: 200px;
+	height: auto;
+
+}
+.about{
+	position: absolute;
+	top: 180px;
+ font-size: 80px;
+    text-align: center;
+   color: white;
+    transform: translate(135%,0%);
+	font-family: times;
+}
+.about1{
+	position: absolute;
+	top: 255px;
+ font-size: 19px;
+    text-align: center;
+   color: white;
+    transform: translate(190%,0%);
+	font-family: cursive;
+}
+.pause1{
+	position: relative;
+	top: 285px;
+	align-items: center;
+	transform:translate(27% , -0%);
+	font-size: 25px;
+}
+.aboutpic{
+	position: relative;
+	top: 600px;
+	left: 800px;
+box-shadow: 1px 2px 10px 5px black;
+background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("../qwq.jpg");
+background-size: cover;
+height: 650px;
+width: 550px;
+
+}
+.para12 ul{
+
+
+	position: relative;
+	float: left;
+	margin: 50px;
+    
+}
+.para12 ul li{
+	display: block;
+	width: 600px;
+
+}
+.para12 ul li p{
+
+
+	font-family: century;
+	font-size: 16px;
+	position: relative;
+	margin: 35px;
+	padding: 2px;
+
+}
+.footer{
+	position: relative;
+	top: 800px;
+	background: black;
+	height: 250px;
+	width: 100%;
+}
+.log img{
+	top: 520px;
+	left:50%;
+	position:relative;
+	transform:translate(-395%, 0%);
+	align-items:center;
+	width: 200px;
+	height: auto;
+
+}
+.menu2 ul{
+	position: relative;
+	top: 145px;
+	align-items: center;
+	transform:translate(-165%, -0%);
+	list-style-type: none;
+	margin-top: 25px;
+	font-family: times;
+	
+}
+
+.menu2 ul li{
+	display: inline-block;
+}
+.menu2 ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 5px;
+	border: 1px solid transparent;
+	transition: 0.8s ease;
+}
+.menu2 ul li a:hover
+{
+	background-color: white;
+	color: black;
+}
+
+.pause{
+	position: relative;
+	top: 115px;
+	
+	align-items: center;
+	transform:translate(-1.5% , -0%);
+	font-size: 15px;
+}
+

@@ -1,0 +1,290 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+.para{
+	width: 100%;
+	height: 600px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../qw.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	
+}
+.para p{
+	position: absolute;
+	left: 600px;
+	top:200px; 
+	font-size: 90px;
+	width: 200px;
+	height: 40px;
+	padding: 10px;
+	
+	color: white; 
+	text-align: center;
+}
+.pause5{
+	position: absolute;
+	top: 300px;
+	
+	align-items: center;
+	transform:translate(369% , -0%);
+	font-size: 15px;
+}
+.para1{
+
+	width: 100%;
+	height: 900px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../ppo.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+ul{
+	font-family: century gothic;
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.8s ease;
+}
+ul li a:hover
+{
+	background-color: white;
+	color: black;
+}
+ul li ul li{
+	display: none;
+	padding: 6px;
+
+}
+ul li:hover ul li{
+	display: block;
+}
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+.menu{
+	background: white;
+	position:absolute;
+	padding: 20px;
+	opacity: 0.8;
+
+}
+
+.menu ul{
+	float: left;
+	list-style-type: none;
+	color: black;
+	font-family: century gothic;
+	font-size: 20px;
+	
+	
+}
+
+.menu ul li{
+	margin:2px;
+	display: inline-block;
+	padding: 0px 50px;
+
+}
+.menu fieldset{
+	border:2px solid black;
+	padding-bottom: 5px;
+	border-radius: 25px;
+}
+.menu fieldset legend{
+	padding:0px 20px;
+	font-size: 60px;
+	text-align: center;
+}
+.menu1{
+	background: white;
+	position:absolute;
+	padding: 20px;
+	opacity: 0.8;
+
+}
+
+.menu1 ul{
+	float: left;
+	list-style-type: none;
+	color: black;
+	font-family: century gothic;
+	font-size: 20px;
+	
+	
+}
+
+.menu1 ul li{
+	margin:2px;
+	display: inline-block;
+	padding: 0px 50px;
+
+}
+.menu1 fieldset{
+	border:2px solid black;
+	padding-bottom: 5px;
+	border-radius: 25px;
+}
+.menu1 fieldset legend{
+	padding:0px 20px;
+	font-size: 60px;
+	text-align: center;
+}
+.menu2{
+	background: white;
+	position:absolute;
+	opacity:0.8;
+	padding: 20px;
+	
+	}
+
+.menu2 ul{
+	float: left;
+	list-style-type: none;
+	color: black;
+	font-family: century gothic;
+	font-size: 20px;
+	
+	
+}
+
+.menu2 ul li{
+	margin:2px;
+	display: inline-block;
+	padding: 0px 50px;
+
+}
+.menu2 fieldset{
+	border:2px solid black;
+	padding-bottom: 5px;
+	border-radius: 25px;
+}
+.menu2 fieldset legend{
+	padding:0px 20px;
+	font-size: 60px;
+	text-align: center;
+}
+.para2{
+	width: 100%;
+	height: 900px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../ppp.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;}
+	
+
+
+.para3{
+
+	width: 100%;
+	height: 900px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../ppo.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.para4{
+
+	width: 100%;
+	height: 750px;
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../pic2.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.menu3{
+	background: white;
+	position:absolute;
+	opacity:0.8;
+	padding: 20px;
+	
+	}
+
+.menu3 ul{
+	float: left;
+	list-style-type: none;
+	color: black;
+	font-family: century gothic;
+	font-size: 20px;
+	
+	
+}
+
+.menu3 ul li{
+	margin:2px;
+	display: inline-block;
+	padding: 0px 50px;
+
+}
+.menu3 fieldset{
+	border:2px solid black;
+	padding-bottom: 5px;
+	border-radius: 25px;
+}
+.menu3 fieldset legend{
+	padding:0px 20px;
+	font-size: 60px;
+	text-align: center;
+}
+.footer{
+	position: relative;
+	top: 700px;
+	background: black;
+	height: 250px;
+	width: 100%;
+}
+.log img{
+	
+	top: 480px;
+	left:50%;
+	position:relative;
+	transform:translate(-50%, -0%);
+	align-items:center;
+	width: 200px;
+	height: auto;
+
+}
+.menu5 ul{
+	position: relative;
+	top: 155px;
+	align-items: center;
+	transform:translate(-274%, -0%);
+	list-style-type: none;
+	margin-top: 25px;
+	font-family: times;
+	font-size: 14px;
+}
+
+.menu5 ul li{
+	display: inline-block;
+}
+.menu5 ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 5px;
+	border: 1px solid transparent;
+	transition: 0.8s ease;
+}
+.menu5 ul li a:hover
+{
+	background-color: white;
+	color: black;
+}
+
+.pause{
+	position: relative;
+	top: 120px;
+	align-items: center;
+	transform:translate(44% , -0%);
+	font-size: 15px;
+}

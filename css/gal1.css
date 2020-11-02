@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+header{
+	position: relative;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../qw.jpg");
+	background-attachment: fixed;
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	width: 100px;
+	display: inline-block;
+}
+ul li a{
+	font-family: century gothic;
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.8s ease;
+}
+ul li a:hover
+{
+	background-color: white;
+	color: black;
+}
+ul li ul li{
+	display:none;
+	padding:6px;
+
+}
+ul li:hover ul li{
+	display: block;
+}
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+
+.logo img{
+	position: relative;
+	left: 50px;
+    top: 20px;
+	float: left;
+	width: 200px;
+	height: auto;
+
+}
+.about{
+	position: absolute;
+	top: 180px;
+ font-size: 90px;
+    text-align: center;
+   color: white;
+    transform: translate(145%,0%);
+	font-family: times;
+}
+.gallery1{
+position: absolute;
+top: 650px;
+	margin: 10px 50px;
+
+}
+.gallery1 img{
+	padding: 4px;
+
+	
+filter: grayscale(70%);
+
+}
+.gallery1 img:hover{
+	filter:grayscale(0%);
+	transform:scale(1.05);
+	transition:0.2s;
+}
+.gal{
+	position: relative;
+	top: 0px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../3.jpg");
+	background-attachment: fixed;
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+}
+.pause1{
+	position: relative;
+	top: 285px;
+	align-items: center;
+	transform:translate(32% , -0%);
+	font-size: 25px;
+}
+.footer{
+	position: relative;
+	top: 1251px;
+	background: black;
+	background-size: cover;
+	height: 250px;
+	width: 100%;
+}
+.log1 img{
+	top: 980px;
+	left:50%;
+	position:relative;
+	transform:translate(-64%, 0%);
+	align-items:center;
+	width: 200px;
+	height: auto;
+
+}
+.menu2 ul{
+	position: relative;
+	top: 145px;
+	align-items: center;
+	transform:translate(-140%, -0%);
+	list-style-type: none;
+	margin-top: 25px;
+	font-family: times;
+	
+}
+
+.menu2 ul li{
+	display: inline-block;
+}
+.menu2 ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 5px;
+	border: 1px solid transparent;
+	transition: 0.8s ease;
+}
+.menu2 ul li a:hover
+{
+	background-color: white;
+	color: black;
+}
+
+.pause{
+	position: relative;
+	top: 115px;
+	
+	align-items: center;
+	transform:translate(42.80% , -0%);
+	font-size: 15px;
+}
