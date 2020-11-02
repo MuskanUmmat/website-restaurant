@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: times;
+}
+header{
+	position: relative;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../21.jpg");
+	top: 100px;
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.8s ease;
+}
+ul li a:hover
+{
+	background-color: black;
+	color: white;
+}
+ul li ul li{
+	display:none;
+	padding:6px;
+
+}
+ul li:hover ul li{
+	display: block;
+}
+
+.logo img{
+	float: left;
+	width: 200px;
+	height: auto;
+
+}
+.form{
+	position: relative;
+	top: 150px;
+	left: 20px;
+	width:90%;
+	
+}
+.form input{
+	position:relative;
+	width:30%;
+	height:40px;
+	margin:10px 0px;
+	text-align:left;
+	background:transparent;
+	border:none;
+	border-bottom:1px solid black;
+	outline:none;
+	font-size:17px;
+}
+.cont{
+	position: relative;
+	background: red;
+	top: 200px;
+	left: 20px;
+	width:90%;
+	
+}
+.cont input{
+	position:relative;
+	width:30%;
+	height:40px;
+	margin:10px 0px;
+	text-align:left;
+	background:transparent;
+	border:none;
+	border-bottom:1px solid black;
+	outline:none;
+	font-size:17px;
+}
+.submit{
+	position: relative;
+	top: 250px;
+}
+.submit input[type="submit"]{
+	position:relative;
+	padding: 15px 15px;
+	top:2px;
+	background:darkred;
+	width:160px;
+	text-align:center;
+	left:20px;
+	font-size:15px;
+	color:white;
+	border:none;
+	cursor:pointer;
+	border:1px solid black;
+	
+}
+.section{
+	position: relative;
+	transform:translate(145%,0%);
+	top: 110px;
+	margin: 30px;
+	width: 600px;
+	height: 450px; 
+	border:2px;
+	padding-bottom: 40px;
+
+}
+.section p{
+	font-family: arial;
+
+	position: relative;
+	transform:translate(-125%,0%);
+	top: 110px;
+	font-size: 35px;
+	
+}
